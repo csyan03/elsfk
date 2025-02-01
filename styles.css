@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: black;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.folder {
+    position: relative;
+}
+.swiper-horizontal {
+    width: 100%;
+    height: 100%;
+}
+.image-slide, .video-slide {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
